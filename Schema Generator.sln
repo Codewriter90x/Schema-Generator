@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schema Generator", "Schema Generator\Schema Generator.csproj", "{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A62AEF2B-2CA1-47F2-B539-C5E1165052E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB} = {C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F80FE0-3F9E-4A5D-A964-E9C5F11EC1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62AEF2B-2CA1-47F2-B539-C5E1165052E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62AEF2B-2CA1-47F2-B539-C5E1165052E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62AEF2B-2CA1-47F2-B539-C5E1165052E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62AEF2B-2CA1-47F2-B539-C5E1165052E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818E8948-7563-4AA6-B5D9-06A945FF1171}
+	EndGlobalSection
+EndGlobal
